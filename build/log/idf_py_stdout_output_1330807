@@ -1,0 +1,13 @@
+[0/1] cd /home/abivathan/esp/projects/DDSM115_CRTL_ESPIDF/build && /usr/bin/cmake -D "IDF_SIZE_TOOL=/home/abivathan/.espressif/python_env/idf5.2_py3.10_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/abivathan/esp/projects/DDSM115_CRTL_ESPIDF/build/DDSM115_CRTL_ESPIDF.map -D OUTPUT_JSON= -P /home/abivathan/esp/esp-idf/tools/cmake/run_size_tool.cmake
+Total sizes:
+Used static IRAM:   16383 bytes (      1 remain, 100.0% used)
+      .text size:   15356 bytes
+   .vectors size:    1027 bytes
+Used stat D/IRAM:   60039 bytes ( 285817 remain, 17.4% used)
+      .data size:   10700 bytes
+      .bss  size:    2272 bytes
+      .text size:   47067 bytes
+Used Flash size :  190079 bytes
+           .text:  139511 bytes
+         .rodata:   50312 bytes
+Total image size:  264229 bytes (.bin may be padded larger)
